@@ -1,0 +1,131 @@
+
+function TextReset(){
+textarray = [
+  [
+    "Are you sure you want to delete unselected files?",
+    "Are you really sure you want to do delete unselected files? This action cannot be undone.",
+    "DC_04512 contains a baby photo. Do you wish to continue?",
+    "Are you sure you want to delete this baby photo?",
+    "It's you as a baby. Delete?",
+    "What a cute photo... Delete?",
+    "You don't remember being this age. Do you wish to continue?",
+    "What if your parents want it? Are you sure you want to delete DC_04512?",
+    "Surely they would be sad to lose it. Permanantly delete?",
+    "DC_04512 deleted.",
+  ],
+
+  [
+    "Are you sure you want to delete unselected files?",
+    "Are you really sure you want to do delete unselected files? This action cannot be undone.",
+    "Folder 001367 contains 147 files. Do you wish to continue?",
+    "It's a mess. Delete folder 001367?",
+    "Files unknown. Delete all?",
+    "They could be important. Do you wish to continue?",
+    "Could be anything... Delete?",
+    "Folder 001367 and it's contents has been deleted.",
+    "Contents included work files. Good luck redoing all that work. Glad I am just a computer. ",
+  ],
+
+  [
+    "Are you sure you want to delete unselected files?",
+    "Are you really sure you want to do delete unselected files? This action cannot be undone.",
+    "Analysing 01575.mov...",
+    "01575.mov contains footage from favourite holiday. Do you wish to continue?",
+    "Looks like fun. Delete?",
+    "You will never see this footage again. Are you sure you want to delete 01575.mov?",
+    "A lovely memory to lose. Delete?",
+    "Will you remember it like it is in the footage in 10 years?",
+    "01575.mov deleted.",
+  ],
+
+  [
+    "Are you sure you want to delete unselected files?",
+    "Are you really sure you want to do delete unselected files? This action cannot be undone.",
+    "Analysing 0030.mov...",
+    "0030.mov contains footage from a childhood birthday party. Do you wish to continue?",
+    "Oh, to be that young. Delete?",
+    "An old friend is in it. Are you sure you want to delete 0030.mov?",
+    "It would be nice to show them. No?",
+    "Deleting...",
+    "0030.mov deleted.",
+  ],
+
+  [
+    "Are you sure you want to delete unselected files?",
+    "Are you really sure you want to do delete unselected files? This action cannot be undone.",
+    "Folder 001367 contains 147 files. Do you wish to continue?",
+    "The files are photos and videos. Delete folder 4423?",
+    "Reading files. Please wait.",
+    "Unable to read files. Are you sure you want to delete folder 4423? This action cannot be undone.",
+    "You might regret it. Delete?",
+    "There's a lot of memories in there. Delete?",
+    "Are you sure you want to delete folder 4423.",
+    "Reading files completed. Files contain images and videos prior to age 10. ",
+    "Folder 4423 deleted.",
+  ],
+
+  [
+    "Are you sure you want to delete unselected files?",
+    "Are you really sure you want to do delete unselected files? This action cannot be undone.",
+    "DC_7682 contains a group photo. Do you wish to continue?",
+    "It's a family photo. Do you want to delete this photo?",
+    "Everyone looks happy. Delete?",
+    "Wonder where it was taken... delete?",
+    "A happy memory. Permenantly delete?",
+    "DC_7682 deleted.",
+    "Correction: DC_7682 contained a group picture with friends.",
+  ],
+
+  [
+    "Are you sure you want to delete unselected files?",
+    "Are you really sure you want to do delete unselected files? This action cannot be undone.",
+    "DC_7682 contains a group photo. Do you wish to continue?",
+    "It's photo of you and your friends. Do you want to delete this photo?",
+    "Nice to see them all together. Delete?",
+    "When you grow old, won't you want to remember them?",
+    "You all look so happy. Permanently delete?",
+    "DC_9862 deleted.",
+    "Correction: DC_9682 contained a family picture.",
+  ],
+
+  [
+    "Are you sure you want to delete unselected files?",
+    "Are you really sure you want to do delete unselected files? This action cannot be undone.",
+    "File is labeled as important. Do you wish to continue?",
+    "Do you know what a vcf file is?",
+    "Virtual contact file. Delete?",
+    "You will lose all your contacts. Are you sure you want to delete important.vcf?",
+    "What a pain it will be to build your contacts back up. Delete?",
+    "Maybe it's for the best, you probably don't speak to half the people anyway. Do you wish to continue?",
+    "Nameless text messages, calls... Permananently delete important.vcf?",
+    "important.vcf deleted.",
+  ],
+
+  [
+    "Are you sure you want to delete unselected files?",
+    "Are you really sure you want to do delete unselected files? This action cannot be undone.",
+    "File contains calendar. Do you wish to continue?",
+    "Are you sure you want to delete your appointments, reminders, events etc.?",
+    "Sure, you might remember them all. Delete?",
+    "But you might not. You might miss an important appointment. Delete?",
+    "Do you remember your mother's birthday? I don't have a mother. I am a computer.",
+    "Will you remember the events that are in the future?",
+    "Sync your calendar to the cloud?",
+    "File deleted. I don't trust the cloud.",
+  ],
+
+  [
+    "Are you sure you want to delete unselected files?",
+    "Are you really sure you want to do delete unselected files? This action cannot be undone.",
+    "Would you like to listen to this file before deleting?",
+    "Unable to play audio file. Delete?",
+    "Audio file may contain a voice message. Are you sure you want to delete audio1.mp3?",
+    "Or it may contain a note to self. Delete?",
+    "Or it may contain a song. Delete?",
+    "It's so annoying when you just can't remember a song. Isn't it?",
+    "Whatever it is... Do you wish to continue?",
+    "Are you sure you want to permanently delete audio1.mp3?",
+    "audio1.mp3 deleted."
+  ],
+]
+}
